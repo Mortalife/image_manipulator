@@ -14,11 +14,11 @@ Run this command from the directory in which you want to install the application
 
 ##Settings
 
-allowed_hosts - Array of allowed image source domains
+* allowed_hosts - Array of allowed image source domains
 
-watermark - image_location - Path to image to be used as a watermark
+* watermark - image_location - Path to image to be used as a watermark
 
-valid_options - Disable methods
+* valid_options - Disable methods
 
 ##Current Methods
 
@@ -29,7 +29,8 @@ Watermark - Allows the addition of a custom watermark to the provided image.
 
 Once installed point your brower to: domain.com/{width}/{height}/{method[-method]}/{url}
 
-Example:
+###Examples:
 
-mattpeck.uk/500/500/resize/http://mattpeck.uk/img/me.png
-mattpeck.uk/500/500/resize-watermark/http://mattpeck.uk/img/me.png
+    mattpeck.uk/500/500/resize/http://mattpeck.uk/img/me.png
+
+    mattpeck.uk/500/500/resize-watermark/http://mattpeck.uk/img/me.png
