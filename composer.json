@@ -1,0 +1,22 @@
+{
+    "name": "mortalife/image_manipulator",
+    "description": "Application which allows for direct image manipulation of a supplied image on the fly",
+    "keywords": ["image","manipulation"],
+    "homepage": "https://github.com/Mortalife/image_manipulator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Peck",
+            "email": "hello@mattpeck.uk",
+            "homepage": "http://www.mattpeck.uk/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "intervention/image": "^2.3",
+        "intervention/imagecache": "^2.3"
+    }
+}
